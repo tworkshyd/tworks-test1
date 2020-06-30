@@ -5,13 +5,13 @@
 # the repo. Unless a later match takes precedence,
 # @global-owner1 and @global-owner2 will be requested for
 # review when someone opens a pull request.
-*       @aravinda-tworks
+*       @anand-tworks
 
 # Order is important; the last matching pattern takes the most
 # precedence. When someone opens a pull request that only
 # modifies cpp files, only @js-owner and not the global
 # owner(s) will be requested for a review.
-*.cpp    @tworkshyd/codereview
+*.cpp    @aravinda-tworks
 
 
 # You can also use email addresses if you prefer. They'll be
